@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#drawer{
+    margin: 0 auto;
+    width: 1100px;
+    /* background-color: black; */
+}
+nav{
+background-color: #fff;
+position: sticky;
+top: 0;
+border-bottom: #ffffff44;
+}
+.navbar{
+    display: flex;
+    /* padding: 25px 30px; */
+    padding-top: 25px;
+    /* background-color: red; */
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    box-shadow: 24px 22px rebeccapurple 20px;  
+}
+#icon{
+    color: black; 
+    font-size: 20px;
+}
+.options>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 17px;
+}
+.options li:hover{
+    color: #387ed1;
+    cursor: pointer;
+    transition-delay: 0.3s;
+}
+.logo #logoz{
+    width: 120px;
+}
+.landimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#landing{
+    width: 1050px;
+    margin-top: 8%;
+
+}
+.text{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+.text>h1{
+    font: 3em sans-serif;
+    font-weight: 300;
+}
+.text>p{
+    font: 1.4em sans-serif;
+    font-weight: 100;
+}
+.text>button{
+    font-size: 1.5em;
+    padding: 8px 27px;
+    background-color: #387ed1;
+    color:  #fff;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    outline: none;
+    margin-top: 20px;
+}
+.text>button:hover{
+    cursor: pointer;
+    background-color: black;
+    transition-delay: 0.4s;
+}
+#eco{
+    width: 650px;
+}
+#for_flex{
+    margin-top: 13%;
+    display: flex;
+    gap: 22px;
+
+}
+#left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#left-side h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+#left-side p{
+    margin-top: 10px;
+    line-height: 28px;
+    color: grey;
+    word-spacing: 1.5px;
+    font-size: 17.2px
+}
+.somelinks{
+    display: flex;
+    justify-content: center;
+    color: #387ed1;
+    font-family: serif;
+    font-size: 1.2em;
+    gap: 15px;
+    margin-top: 40px;
+}
+a{
+     text-decoration: none;
+}
+#news{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#pricing{
+    margin-top: 130px;
+}
+#pricing>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+#flexprice{
+    display: flex;
+    margin-top: 20px;
+}
+#lprice>p{
+    font-size: 17.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+#prici{
+    color: #387ed1;
+    font-family: serif;
+    font-size: 1.2em;
+
+}
+#varsity{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+#freeandopen{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#freeandopen>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+#freeandopen1>p{
+    font-size: 17.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+#freeandopen2>p{
+    font-size: 17.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+#freeandopen a{
+    /* margin-top: 10px; */
+    color: #387ed1;
+    font-family: serif;
+    font-size: 1.2em;
+}
+.text1{
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+}
+.text1>h1{
+    font: 2em sans-serif;
+    font-weight: 500;
+}
+.text1>p{
+    font: 1.1em sans-serif;
+    font-weight: 100;
+}
+.text1>button{
+    font-size: 1.5em;
+    padding: 8px 27px;
+    background-color: #387ed1;
+    color:  #fff;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
